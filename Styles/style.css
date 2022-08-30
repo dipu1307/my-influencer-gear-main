@@ -11,3 +11,44 @@
     margin: 0;
     background: #fdfdfd;
   }
+
+  /* ---------------------------
+    Header style start  
+    --------------------------*/
+
+    /* Navigation style start  */
+    
+    .nav-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo h2{
+      font-size: 24px;
+      color: #3A3A3A;
+    }
+    .menu-bar a{
+      text-decoration: none;
+      font-size: 16px;
+      font: 600;
+      color: #3A3A3A;
+}
+/* Navigation style end */
+/* Header information style start  */
+.header-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header-half-width{
+  width: 50%;
+  margin-left: 10%;
+}
+.header-half-width img{
+  background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Header information style end */
+  /* Header style end */
