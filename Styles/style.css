@@ -74,17 +74,26 @@
   font-weight: 600;
 }
  .header-text a{
+  display: inline-block;
+  width: 250px;
   text-decoration: none;
   background-color: #E02C6D;
   color: white;
-  padding: 10px 25px;
+  padding: 10px 10px;
   border-radius: 41px;
   text-align: center;
+  transition: all linear 0.4s;
 }
+
+
 .header-text .icon-arrow{
   padding: 2%;
 
 }  
+.header-btn:hover {
+  transform: scale(1.1);
+
+}
 .header-info-logo{
   width: 50%;
   margin-right: -8%;
