@@ -110,10 +110,10 @@
 
 /* Shopping ares style start  */
 .shop-info{
-margin-top: 10%;
-display: flex;
-justify-content: center;
-align-items: center;
+ margin-top: 10%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .shop-sites{
   display: grid;
