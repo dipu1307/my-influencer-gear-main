@@ -115,6 +115,15 @@
  justify-content: center;
  align-items: center;
 }
+.shop-area hr{
+  width: 100%;
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.05;
+  
+  
+}
 .shop-sites{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
