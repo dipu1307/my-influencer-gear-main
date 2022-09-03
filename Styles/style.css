@@ -121,7 +121,7 @@
   align-items: center;
   justify-items: center;
 }
-.shop-sites img{
+.shop-sites .shop-name{
   padding: 0 30px;
 }
 
