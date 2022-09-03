@@ -16,11 +16,12 @@
     Header style start  
     --------------------------*/
     .header-section{
-      margin-top: 5%;
+      /* margin-top: 5%; */
     }
     .container{
       width: 80%;
       margin: 0 auto;
+      margin-top: 5%;
     }
 
     /* Navigation style start  */
@@ -106,4 +107,26 @@
   margin-left: 22%;
 }
 /* Header information style end */
-  /* Header style end */
+
+/* Shopping ares style start  */
+.shop-info{
+margin-top: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.shop-sites{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.shop-sites img{
+  padding: 0 30px;
+}
+
+/* Shopping ares style end */
+
+  /* ------------------------
+        Header style end 
+    -------------------------*/
