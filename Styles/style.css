@@ -230,3 +230,46 @@
     
         
     /* Main style end */
+
+
+    /* ------------------------------------
+            Footer style part start  
+      ----------------------------------------*/
+    
+    footer{
+      width: 100%;
+      height: 240px;
+      background-color: #0A0826;
+    }
+    .influencer-products{
+      padding-top: 25px;
+    }
+    .influencer-product h3{
+      text-align: center;
+      color: white;
+      font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        
+    }
+    .influencer-product p{
+      text-align: center;
+      color: white;
+      font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .social-icons{
+      width: 176px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      
+    }
+    .social-icon{
+      color: white;
+    }
+        /*-----------------------------------------
+                Footer style part end 
+         ------------------------------------------*/
