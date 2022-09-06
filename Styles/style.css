@@ -106,6 +106,10 @@
 .header-info-logo img{
   margin-left: 22%;
 }
+.header-influencer:hover .header-info-logo img{
+  transform: rotate3d(0, -30, 50, 6rad);
+    transition: all 2s ease;
+}
 /* Header information style end */
 
 /* Shopping ares style start  */
@@ -227,7 +231,56 @@
           padding: 2%;
     
         }
-    
+    /* Get updates Area start */
+    .newsletter-area{
+      margin: 100px auto 30px auto;
+        width: 80%;
+        background: #f7f7f7 none repeat scroll 0 0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .news-area{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 0;
+
+    }
+    .get-updates{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      padding-left: 100px;
+    }
+    .update-title{
+      font-size: 30px;
+      line-height: 25px;
+      text-transform: uppercase;
+    }
+    .update-title span{
+      background: rgba(89, 14, 228, 0.87);
+        display: inline-block;
+        padding: 25px 10px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .subscribe-areas{
+      width: 40%;
+    }
+    .subscribe-areas input{
+      width: 90%;
+        border: 0;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 5px 20px 10px;
+        color: #333333;
+    }
+    .subscribe-areas small{
+      display: block;
+      padding-top: 20px;
+    }
+    /* Get updates Area end */
         
     /* Main style end */
 
