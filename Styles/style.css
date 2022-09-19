@@ -303,6 +303,9 @@ footer {
 
 /* Responsive style start */
 @media only screen and (max-width: 688px) {
+  body {
+    overflow-x: scroll;
+  }
   /* Navigation style start  */
 
   .main-menu {
@@ -356,6 +359,10 @@ footer {
     gap: 20px;
     justify-content: center;
   }
+  /* shopping style end */
+
+  /* Popular collection style start  */
+  /* Popular collection style end */
   .popular-collections {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -368,8 +375,36 @@ footer {
   .popular-collection-area {
     margin-top: 60px;
   }
-}
 
-/* shopping style end */
+  /* News area style start  */
+  .news-area {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .get-updates {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  .subscribe-areas {
+    width: 100%;
+  }
+}
+/* News area style end */
+
+/* Tablet Device 
+---------------------*/
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .header-section {
+    width: 90%;
+  }
+  .header-influencer {
+    width: 90%;
+  }
+  .header-info-logo img {
+    margin: 0;
+  }
+}
 
 /* Responsive style end*/
